@@ -1,0 +1,133 @@
+@font-face {
+  font-family: 'Outfit';
+  src: url('assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('woff2');
+}
+
+@font-face {
+  font-family: 'young-serif';
+  src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf') format('woff2');
+  
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    background-color: lightblue;
+  }
+  
+  .container {
+    padding: 10px;
+  }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    background-color: hsl(30, 54%, 90%);
+}
+
+img {
+    align-self: center;
+    width: 100%;
+    border-radius: 12px;
+}
+
+li {
+    padding-left: 1rem;
+}
+
+ul, ol {
+    padding-left: 1.5rem;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: hsl(30, 18%, 87%);
+    margin: 2rem 0;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 100px 0;
+    width: 700px;
+    max-width: 1440px;
+    text-align: left;
+    background-color: hsl(0, 0%, 100%);
+    padding: 40px;
+    border-radius: 20px
+}
+
+header h1 {
+    font-family: "young-serif";
+    font-weight: 400;
+}
+
+.prep-time {
+    width: 100%;
+    text-align: left;
+    background-color: hsl(330, 100%, 98%);
+    padding: 0 20px;
+    border-radius: 12px;
+}
+
+.prep-time h3 {
+    color: hsl(332, 51%, 32%);
+}
+
+.prep-time ul {
+    line-height: 2.0;
+}
+
+.ingredients h2 {
+    font-family: "young-serif";
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+}
+
+.ingredients ul {
+    line-height: 2.0;
+}
+
+.instructions h2 {
+    font-family: "young-serif";
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+}
+
+.instructions ol {
+    line-height: 2.0;
+}
+
+.nutrition h2 {
+    font-family: "young-serif";
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+}
+
+.facts {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.nutrition hr {
+    border: none;
+    height: 1px;
+    background-color: hsl(30, 18%, 87%);
+    margin: 0
+}
