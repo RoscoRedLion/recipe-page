@@ -5,8 +5,9 @@ This is a solution to the Recipe Page challenge on Frontend Mentor. Frontend Men
 
 [Screenshot] "screenshot-1.png" - "screenshot-2.png" - "screenshot-3.png"
 
-[Links] GitHub repository: https://github.com/RoscoRedLion/social-links-profile Live Website: https://roscoredlion.github.io/social-links-profile/
+[Links] GitHub repository: "https://github.com/RoscoRedLion/recipe-page"
+[Live Website]: https://roscoredlion.github.io/social-links-profile/
 
-[My process] This page was created using VS Code (html, css) The buttons were made interactive using 'transform: scale(1.1)' and 'cursor: pointer'
+[My process] This page was created using VS Code (html, css)
 
 [Author] Andrew Woods (AKA Rosco)
