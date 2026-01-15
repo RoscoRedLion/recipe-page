@@ -6,7 +6,7 @@ This is a solution to the Recipe Page challenge on Frontend Mentor. Frontend Men
 [Screenshot] "screenshot-1.png" - "screenshot-2.png" - "screenshot-3.png"
 
 [Links] GitHub repository: "https://github.com/RoscoRedLion/recipe-page"
-[Live Website]: https://roscoredlion.github.io/social-links-profile/
+[Live Website]: "https://roscoredlion.github.io/recipe-page/"
 
 [My process] This page was created using VS Code (html, css)
 
