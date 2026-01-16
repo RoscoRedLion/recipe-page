@@ -1,22 +1,12 @@
 @font-face {
   font-family: 'Outfit';
-  src: url('Outfit-VariableFont_wght.ttf') format('woff2');
+  src: url('assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('woff2');
 }
 
 @font-face {
   font-family: 'young-serif';
-  src: url('YoungSerif-Regular.ttf') format('woff2');
+  src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf') format('woff2');
   
-}
-
-@media screen and (max-width: 375px) {
-  body {
-    background-color: lightblue;
-  }
-  
-  .container {
-    padding: 10px;
-  }
 }
 
 * {
@@ -61,8 +51,8 @@ hr {
     align-items: flex-start;
     justify-content: center;
     margin: 100px 0;
-    width: 700px;
-    max-width: 1440px;
+    width: 100%;
+    max-width: 700px;
     text-align: left;
     background-color: hsl(0, 0%, 100%);
     padding: 40px;
@@ -130,5 +120,14 @@ header h1 {
     height: 1px;
     background-color: hsl(30, 18%, 87%);
     margin: 0
+}
 
+@media screen and (max-width: 375px) {
+  body {
+    background-color: lightblue;
+  }
+  
+  .container {
+    padding: 10px;
+  }
 }
